@@ -1,0 +1,1 @@
+{"version":3,"sources":["webpack://src/components/Schwerpunkte/SchwerpunkteTable/SchwerpunkteTable.module.css"],"names":[],"mappings":"AAAA,oCACI,cACJ","file":"main.e9191ee0.chunk.css","sourcesContent":[".thPointer {\r\n    cursor: pointer;\r\n}\r\n\r\n/* #red {\r\n    border: '2px solid #d9534f'\r\n} */"]}
