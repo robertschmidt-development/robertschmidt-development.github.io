@@ -1,17 +1,49 @@
 import React, {useState} from 'react'
-import AdminRoutes from './AdminRoutes'
-import UserRoutes from './UserRoutes'
-import NavAdmin from './components/NavAdmin/NavAdmin'
-import NavUser from './components/NavUser/NavUser'
-import wackenhut from './Pdf/wackenhut.png'
-import Start from './components/Start/Start'
-import { Redirect } from "react-router-dom";
-import { Menu } from './enums/menunames'
+import MyService from './components/MyService/MyService'
+// import AdminRoutes from './AdminRoutes'
+// import UserRoutes from './UserRoutes'
+// import NavAdmin from './components/NavAdmin/NavAdmin'
+// import NavUser from './components/NavUser/NavUser'
+// import wackenhut from './Pdf/wackenhut.png'
+// import Start from './components/Start/Start'
+// import { Redirect } from "react-router-dom";
+// import { Menu } from './enums/menunames'
 
 
 const App = () => {
 
-    return <h1>Test Etrst Teswsyt</h1>
+    return <div className="container">
+                <h1 class="display-4">Robert Schmidt Development</h1>
+                <code style={{fontSize:'x-large'}}>{'<> '}Programming(){'{ ...Solution }'}{' </>'}</code>
+                <br/><br/><br/>
+                <div class="card-deck">
+                        <MyService />
+                    <div class="card bg-warning">
+                        <div class="card-body text-center">
+                        <p class="card-text">Some text inside the second card</p>
+                        </div>
+                    </div>
+                    <div class="card bg-success">
+                        <div class="card-body text-center">
+                        <p class="card-text">Some text inside the third card</p>
+                        </div>
+                    </div>
+                    <div class="card bg-danger">
+                        <div class="card-body text-center">
+                        <p class="card-text">Some text inside the fourth card</p>
+                        </div>
+                    </div>
+                
+                </div>
+            </div>
+
+
+        
+
+                
+                        
+   
+            
 
     // const [app, setApp] = useState({component: 'start'})
     // const [userInfo, setUser] = useState({id: '', kuerzel: '', standort: ''})
