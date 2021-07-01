@@ -1,7 +1,7 @@
 import React from 'react'
 import { Menu } from '../../EnumMenu';
 import service from'./service.jpg';
-import classes from '../../components/Card.module.css'
+import classes from '../../components/Card.module.sass'
 
 const ContactCard = props => {
 
