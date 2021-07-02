@@ -9,6 +9,8 @@ import Testimonials from './components/Testimonials/Testimonials'
 import ProjectCard from './components/Project/ProjectCard'
 import TestimonialsCard from './components/Testimonials/TestimonialsCard'
 import ContactCard from './components/Contact/ContactCard'
+import Footer from './components/Footer/Footer'
+import Legal from './components/Legal/Legal'
 
 const App = () => {
 
@@ -24,6 +26,7 @@ const App = () => {
                             <TestimonialsCard setMenu={setMenu}/>
                             <ContactCard setMenu={setMenu}/>
                     </div>
+                    <Footer setMenu={setMenu}/>
                 </>
 
     const getContent = () => {
@@ -38,6 +41,8 @@ const App = () => {
                 return <Contact setMenu={setMenu}/>
             case Menu.PROJECT:
                 return <Project setMenu={setMenu}/>
+            case Menu.LEGAL:
+                return <Legal setMenu={setMenu}/>
             default:
                 break;
         }

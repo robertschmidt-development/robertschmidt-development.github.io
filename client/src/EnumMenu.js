@@ -3,5 +3,6 @@ export const Menu = {
     SERVICE: 'service',
     PROJECT: 'project',
     CONTACT: 'contact',
-    TESTIMONIALS: 'testimonials'
+    TESTIMONIALS: 'testimonials',
+    LEGAL: 'legal'
 }
