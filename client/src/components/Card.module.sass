@@ -1,6 +1,7 @@
-@import "../colors"
+@import "../Sass/_colors"
+@import "../Sass/_mixins"
 
 .clickable
-    cursor: pointer
+    @include goto
     &:hover
         color: $links

@@ -1,9 +1,10 @@
-@import "../../colors"
+@import "../../Sass/_colors"
+@import "../../Sass/_mixins"
 
 .legal
     text-align: center
 
 .link
-    cursor: pointer
+    @include goto
     &:hover
         font-weight: bold

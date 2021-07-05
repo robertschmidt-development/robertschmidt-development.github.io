@@ -5,9 +5,7 @@ import { Menu } from './EnumMenu'
 import Head from './components/Head/Head'
 import Project from './components/Project/Project'
 import Contact from './components/Contact/Contact'
-import Testimonials from './components/Testimonials/Testimonials'
 import ProjectCard from './components/Project/ProjectCard'
-import TestimonialsCard from './components/Testimonials/TestimonialsCard'
 import ContactCard from './components/Contact/ContactCard'
 import Footer from './components/Footer/Footer'
 import Legal from './components/Legal/Legal'
@@ -16,42 +14,32 @@ const App = () => {
 
     const [menu, setMenu] = useState(Menu.INIT)
 
-    const deck = <>
-                    <div className="card-deck">
-                            <ServiceCard setMenu={setMenu}/>
-                            <ProjectCard setMenu={setMenu}/>
-                    </div>
-                    <br/>
-                    <div className="card-deck">
-                            <TestimonialsCard setMenu={setMenu}/>
-                            <ContactCard setMenu={setMenu}/>
-                    </div>
-                    <Footer setMenu={setMenu}/>
-                </>
-
     const getContent = () => {
         switch (menu) {
             case Menu.INIT:
-                return deck
+                return 
             case Menu.SERVICE:
-                return <Service setMenu={setMenu}/>
-            case Menu.TESTIMONIALS:
-                return <Testimonials setMenu={setMenu}/>
+                return <Service />
             case Menu.CONTACT:
-                return <Contact setMenu={setMenu}/>
+                return <Contact />
             case Menu.PROJECT:
-                return <Project setMenu={setMenu}/>
+                return <Project />
             case Menu.LEGAL:
-                return <Legal setMenu={setMenu}/>
+                return <Legal />
             default:
                 break;
         }
     }
 
-
     return <div className="container">
-                <Head />
+                <Head setMenu={setMenu}/>
+                <div className="card-deck">
+                    <ServiceCard setMenu={setMenu}/>
+                    <ProjectCard setMenu={setMenu}/>
+                    <ContactCard setMenu={setMenu}/>
+                </div>
                 {getContent()}
+                <Footer setMenu={setMenu}/>
             </div>
 }
 

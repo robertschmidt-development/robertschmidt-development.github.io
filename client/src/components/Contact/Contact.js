@@ -1,14 +1,16 @@
 import React from 'react'
-import { Menu } from '../../EnumMenu'
+import classes from './Contact.module.sass'
 
-const Contact = props => {
+const Contact = () => {
 
-    const {setMenu} = props
-    
-    return <>
-                <h1>Hi from Contact</h1>
-                <button type="button" className="btn btn-outline-info" onClick={() => setMenu(Menu.INIT)}>Back</button>
-            </>
+    return <div>
+                <br/>
+                <ul class={`list-group list-group-flush ${classes.detail}`}>
+                    <li class="list-group-item"><span>Address:</span> Schwalbenstr. 1, 72119 Ammerbuch, Germany</li>
+                    <li class="list-group-item"><span>Phone:</span> +49151 18637425</li>
+                    <li class="list-group-item"><span>Mail:</span>  robert.schmidt89(at)gmx.de</li>
+                </ul>
+            </div>
 }
 
 export default Contact

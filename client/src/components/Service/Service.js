@@ -1,12 +1,8 @@
 import React from 'react'
-import { Menu } from '../../EnumMenu'
 
-const Service = props => {
-
-    const {setMenu} = props
+const Service = () => {
 
     return <>
-               <button type="button" className="btn btn-outline-primary btn-sm btn-block" onClick={() => setMenu(Menu.INIT)}>Back</button>
                <br/>
                 <ul class="list-group list-group-flush">
                     <li class="list-group-item">
