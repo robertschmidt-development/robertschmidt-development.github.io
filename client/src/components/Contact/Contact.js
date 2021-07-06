@@ -1,14 +1,17 @@
 import React from 'react'
 import classes from './Contact.module.sass'
+import {useTranslation} from "react-i18next";
 
 const Contact = () => {
 
+    const {t} = useTranslation('common');
+
     return <div>
                 <br/>
-                <ul class={`list-group list-group-flush ${classes.detail}`}>
-                    <li class="list-group-item"><span>Address:</span> Schwalbenstr. 1, 72119 Ammerbuch, Germany</li>
-                    <li class="list-group-item"><span>Phone:</span> +49151 18637425</li>
-                    <li class="list-group-item"><span>Mail:</span>  robert.schmidt89(at)gmx.de</li>
+                <ul className={`list-group list-group-flush ${classes.detail}`}>
+                    <li className="list-group-item"><span>Address:</span> Schwalbenstr. 1, 72119 Ammerbuch, Germany</li>
+                    <li className="list-group-item"><span>{t('contact.phone')}:</span> +49151 18637425</li>
+                    <li className="list-group-item"><span>Mail:</span>  robert.schmidt89(at)gmx.de</li>
                 </ul>
             </div>
 }

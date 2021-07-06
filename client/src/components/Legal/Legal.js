@@ -13,7 +13,6 @@ const Legal = () => {
                     </p>
                     <p>
                     <strong>Tel.:</strong> 01234/56789<br />
-                    <strong>Fax:</strong> 01234/56789-0<br />
                     <strong>E-Mail:</strong> <a href="mailto:office@musterfirma.de">office@musterfirma.de</a>
                     </p>
                     <p>
@@ -21,7 +20,7 @@ const Legal = () => {
                     <br />Bezirkshauptmannschaft Musterhausen<br />
                     <strong>Webseite der Aufsichtsbehörde</strong>
                     <br />
-                    <a href="https://www.aufsichtsbeoerde-musterhausen.de/" target="_blank">https://www.aufsichtsbeoerde-musterhausen.de/</a>
+                    <a href="https://www.aufsichtsbeoerde-musterhausen.de/" target="_blank" rel="noreferrer">https://www.aufsichtsbeoerde-musterhausen.de/</a>
                     <br />
                     <strong>Anschrift der Aufsichtsbehörde</strong>
                     <br /> Musterweg 1, 12345 Musterhausen<br />
@@ -37,10 +36,10 @@ const Legal = () => {
                     <p style={{marginTop:'15px'}}>Quelle: Erstellt mit dem <a href="https://www.adsimple.de/impressum-generator/" >Impressum Generator</a> von AdSimple</p>
                     <h2 id="eu-streitschlichtung">EU-Streitschlichtung</h2>
                     <p>Gemäß Verordnung über Online-Streitbeilegung in Verbraucherangelegenheiten (ODR-Verordnung) möchten wir Sie über die Online-Streitbeilegungsplattform (OS-Plattform) informieren.<br />
-                    Verbraucher haben die Möglichkeit, Beschwerden an die Online Streitbeilegungsplattform der Europäischen Kommission unter <a href="https://ec.europa.eu/consumers/odr/main/index.cfm?event=main.home2.show&amp;lng=DE" target="_blank" rel="noopener">http://ec.europa.eu/odr?tid=321288915</a> zu richten. Die dafür notwendigen Kontaktdaten finden Sie oberhalb in unserem Impressum.</p>
+                    Verbraucher haben die Möglichkeit, Beschwerden an die Online Streitbeilegungsplattform der Europäischen Kommission unter <a href="https://ec.europa.eu/consumers/odr/main/index.cfm?event=main.home2.show&amp;lng=DE" target="_blank" rel="noreferrer">http://ec.europa.eu/odr?tid=321288915</a> zu richten. Die dafür notwendigen Kontaktdaten finden Sie oberhalb in unserem Impressum.</p>
                     <p>Wir möchten Sie jedoch darauf hinweisen, dass wir nicht bereit oder verpflichtet sind, an Streitbeilegungsverfahren vor einer Verbraucherschlichtungsstelle teilzunehmen.</p>
                     <h2 id="haftungs-inhalte-website">Haftung für Inhalte dieser Website</h2>
-                    <p>Wir entwickeln die Inhalte dieser Webseite ständig weiter und bemühen uns korrekte und aktuelle Informationen bereitzustellen. Laut Telemediengesetz <a href="https://www.gesetze-im-internet.de/tmg/__7.html?tid=321288915" rel="noopener" target="_blank">(TMG) §7 (1)</a> sind wir als Diensteanbieter für eigene Informationen, die wir zur Nutzung bereitstellen, nach den allgemeinen Gesetzen verantwortlich. Leider können wir keine Haftung für die Korrektheit aller Inhalte auf dieser Webseite übernehmen, speziell für jene die seitens Dritter bereitgestellt wurden. Als Diensteanbieter im Sinne der §§ 8 bis 10 sind wir nicht verpflichtet, die von ihnen übermittelten oder gespeicherten Informationen zu überwachen oder nach Umständen zu forschen, die auf eine rechtswidrige Tätigkeit hinweisen.</p>
+                    <p>Wir entwickeln die Inhalte dieser Webseite ständig weiter und bemühen uns korrekte und aktuelle Informationen bereitzustellen. Laut Telemediengesetz <a href="https://www.gesetze-im-internet.de/tmg/__7.html?tid=321288915" rel="noreferrer" target="_blank">(TMG) §7 (1)</a> sind wir als Diensteanbieter für eigene Informationen, die wir zur Nutzung bereitstellen, nach den allgemeinen Gesetzen verantwortlich. Leider können wir keine Haftung für die Korrektheit aller Inhalte auf dieser Webseite übernehmen, speziell für jene die seitens Dritter bereitgestellt wurden. Als Diensteanbieter im Sinne der §§ 8 bis 10 sind wir nicht verpflichtet, die von ihnen übermittelten oder gespeicherten Informationen zu überwachen oder nach Umständen zu forschen, die auf eine rechtswidrige Tätigkeit hinweisen.</p>
                     <p>Unsere Verpflichtungen zur Entfernung von Informationen oder zur Sperrung der Nutzung von Informationen nach den allgemeinen Gesetzen aufgrund von gerichtlichen oder behördlichen Anordnungen bleiben auch im Falle unserer Nichtverantwortlichkeit nach den §§ 8 bis 10 unberührt. </p>
                     <p>Sollten Ihnen problematische oder rechtswidrige Inhalte auffallen, bitte wir Sie uns umgehend zu kontaktieren, damit wir die rechtswidrigen Inhalte entfernen können. Sie finden die Kontaktdaten im Impressum.</p>
                     <h2 id="haftung-links-website">Haftung für Links auf dieser Website</h2>
@@ -96,7 +95,7 @@ const Legal = () => {
                     </li>
                     </ul>
                     <h2 id="einleitung-ueberblick">Einleitung und Überblick</h2>
-                    <p>Wir haben diese Datenschutzerklärung (Fassung 05.07.2021-321288915) verfasst, um Ihnen gemäß der Vorgaben der <a href="https://eur-lex.europa.eu/legal-content/DE/ALL/?uri=celex%3A32016R0679&amp;tid=321288915" target="_blank" rel="noopener">Datenschutz-Grundverordnung (EU) 2016/679</a> und anwendbaren nationalen Gesetzen zu erklären, welche personenbezogenen Daten (kurz Daten) wir als Verantwortliche &#8211; und die von uns beauftragten Auftragsverarbeiter (z. B. Provider) &#8211; verarbeiten, zukünftig verarbeiten werden und welche rechtmäßigen Möglichkeiten Sie haben. Die verwendeten Begriffe sind geschlechtsneutral zu verstehen.<br />
+                    <p>Wir haben diese Datenschutzerklärung (Fassung 05.07.2021-321288915) verfasst, um Ihnen gemäß der Vorgaben der <a href="https://eur-lex.europa.eu/legal-content/DE/ALL/?uri=celex%3A32016R0679&amp;tid=321288915" target="_blank" rel="noreferrer">Datenschutz-Grundverordnung (EU) 2016/679</a> und anwendbaren nationalen Gesetzen zu erklären, welche personenbezogenen Daten (kurz Daten) wir als Verantwortliche &#8211; und die von uns beauftragten Auftragsverarbeiter (z. B. Provider) &#8211; verarbeiten, zukünftig verarbeiten werden und welche rechtmäßigen Möglichkeiten Sie haben. Die verwendeten Begriffe sind geschlechtsneutral zu verstehen.<br />
                     <strong>Kurz gesagt:</strong> Wir informieren Sie umfassend über Daten, die wir über Sie verarbeiten.</p>
                     <p>Datenschutzerklärungen klingen für gewöhnlich sehr technisch und verwenden juristische Fachbegriffe. Diese Datenschutzerklärung soll Ihnen hingegen die wichtigsten Dinge so einfach und transparent wie möglich beschreiben. Soweit es der Transparenz förderlich ist, werden technische <strong>Begriffe leserfreundlich erklärt</strong>, <strong>Links</strong> zu weiterführenden Informationen geboten und <strong>Grafiken</strong> zum Einsatz gebracht. Wir informieren damit in klarer und einfacher Sprache, dass wir im Rahmen unserer Geschäftstätigkeiten nur dann personenbezogene Daten verarbeiten, wenn eine entsprechende gesetzliche Grundlage gegeben ist. Das ist sicher nicht möglich, wenn man möglichst knappe, unklare und juristisch-technische Erklärungen abgibt, so wie sie im Internet oft Standard sind, wenn es um Datenschutz geht. Ich hoffe, Sie finden die folgenden Erläuterungen interessant und informativ und vielleicht ist die eine oder andere Information dabei, die Sie noch nicht kannten.<br />
                     Wenn trotzdem Fragen bleiben, möchten wir Sie bitten, sich an die unten bzw. im Impressum genannte verantwortliche Stelle zu wenden, den vorhandenen Links zu folgen und sich weitere Informationen auf Drittseiten anzusehen. Unsere Kontaktdaten finden Sie selbstverständlich auch im Impressum.</p>
@@ -111,7 +110,7 @@ const Legal = () => {
                     <strong>Kurz gesagt:</strong> Die Datenschutzerklärung gilt für alle Bereiche, in denen personenbezogene Daten im Unternehmen über die genannten Kanäle strukturiert verarbeitet werden. Sollten wir außerhalb dieser Kanäle mit Ihnen in Rechtsbeziehungen eintreten, werden wir Sie gegebenenfalls gesondert informieren.</p>
                     <h2 id="rechtsgrundlagen">Rechtsgrundlagen</h2>
                     <p>In der folgenden Datenschutzerklärung geben wir Ihnen transparente Informationen zu den rechtlichen Grundsätzen und Vorschriften, also den Rechtsgrundlagen der Datenschutz-Grundverordnung, die uns ermöglichen, personenbezogene Daten zu verarbeiten.<br />
-                    Was das EU-Recht betrifft, beziehen wir uns auf die VERORDNUNG (EU) 2016/679 DES EUROPÄISCHEN PARLAMENTS UND DES RATES vom 27. April 2016. Diese Datenschutz-Grundverordnung der EU können Sie selbstverständlich online auf EUR-Lex, dem Zugang zum EU-Recht, unter <a href="https://eur-lex.europa.eu/legal-content/DE/ALL/?uri=celex%3A32016R0679&amp;tid=321288915" target="_blank" rel="noopener">https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=celex%3A32016R0679</a> nachlesen.</p>
+                    Was das EU-Recht betrifft, beziehen wir uns auf die VERORDNUNG (EU) 2016/679 DES EUROPÄISCHEN PARLAMENTS UND DES RATES vom 27. April 2016. Diese Datenschutz-Grundverordnung der EU können Sie selbstverständlich online auf EUR-Lex, dem Zugang zum EU-Recht, unter <a href="https://eur-lex.europa.eu/legal-content/DE/ALL/?uri=celex%3A32016R0679&amp;tid=321288915" target="_blank" rel="noreferrer">https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=celex%3A32016R0679</a> nachlesen.</p>
                     <p>Wir verarbeiten Ihre Daten nur, wenn mindestens eine der folgenden Bedingungen zutrifft:</p>
                     <ol>
                     <li>
@@ -140,7 +139,7 @@ const Legal = () => {
                     <br />
                     Telefon: <span style={{fontWeight: 400}}>+49 47114 654165</span>
                     <br />
-                    Impressum: <a href="http://www.testfirma.de/impressum" target="_blank" rel="noopener">https://www.testfirma.de/impressum</a>
+                    Impressum: <a href="http://www.testfirma.de/impressum" target="_blank" rel="noreferrer">https://www.testfirma.de/impressum</a>
                     </p>
                     <h2 id="rechte-dsgvo">Rechte laut Datenschutzgrundverordnung</h2>
                     <p>Laut Artikel 13 DSGVO stehen Ihnen die folgenden Rechte zu, damit es zu einer fairen und transparenten Verarbeitung von Daten kommt:</p>
@@ -170,7 +169,7 @@ const Legal = () => {
                     </li>
                     <li>Sie haben laut Artikel 22 DSGVO unter Umständen das Recht, nicht einer ausschließlich auf einer automatisierten Verarbeitung (zum Beispiel Profiling) beruhenden Entscheidung unterworfen zu werden.</li>
                     </ul>
-                    <p>Wenn Sie glauben, dass die Verarbeitung Ihrer Daten gegen das Datenschutzrecht verstößt oder Ihre datenschutzrechtlichen Ansprüche in sonst einer Weise verletzt worden sind, können Sie sich bei der Aufsichtsbehörde beschweren. Diese ist für Österreich die Datenschutzbehörde, deren Website Sie unter <a href="https://www.dsb.gv.at/?tid=321288915" target="_blank" rel="noopener">https://www.dsb.gv.at/</a> finden und für Deutschland können Sie sich an die <a href="https://www.bfdi.bund.de" target="_blank" rel="noopener">Bundesbeauftragte für den Datenschutz und die Informationsfreiheit (BfDI)</a> wenden.</p>
+                    <p>Wenn Sie glauben, dass die Verarbeitung Ihrer Daten gegen das Datenschutzrecht verstößt oder Ihre datenschutzrechtlichen Ansprüche in sonst einer Weise verletzt worden sind, können Sie sich bei der Aufsichtsbehörde beschweren. Diese ist für Österreich die Datenschutzbehörde, deren Website Sie unter <a href="https://www.dsb.gv.at/?tid=321288915" target="_blank" rel="noreferrer">https://www.dsb.gv.at/</a> finden und für Deutschland können Sie sich an die <a href="https://www.bfdi.bund.de" target="_blank" rel="noreferrer">Bundesbeauftragte für den Datenschutz und die Informationsfreiheit (BfDI)</a> wenden.</p>
                     <p>
                     <strong>Kurz gesagt:</strong> Sie haben Rechte &#8211; zögern Sie nicht, die oben gelistete verantwortliche Stelle bei uns zu kontaktieren!</p>
                     <h2 id="speicherdauer">Speicherdauer</h2>
@@ -183,11 +182,11 @@ const Legal = () => {
                     <h2 id="tls-verschluesselung-https">TLS-Verschlüsselung mit https</h2>
                     <p>TLS, Verschlüsselung und https klingen sehr technisch und sind es auch. Wir verwenden HTTPS (das Hypertext Transfer Protocol Secure steht für „sicheres Hypertext-Übertragungsprotokoll“), um Daten abhörsicher im Internet zu übertragen.<br />
                     Das bedeutet, dass die komplette Übertragung aller Daten von Ihrem Browser zu unserem Webserver abgesichert ist &#8211; niemand kann &#8220;mithören&#8221;.</p>
-                    <p>Damit haben wir eine zusätzliche Sicherheitsschicht eingeführt und erfüllen Datenschutz durch Technikgestaltung <a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32016R0679&amp;from=DE&amp;tid=321288915" target="_blank" rel="noopener">Artikel 25 Absatz 1 DSGVO</a>). Durch den Einsatz von TLS (Transport Layer Security), einem Verschlüsselungsprotokoll zur sicheren Datenübertragung im Internet, können wir den Schutz vertraulicher Daten sicherstellen.<br />
-                    Sie erkennen die Benutzung dieser Absicherung der Datenübertragung am kleinen Schlosssymbol <img role="img" src="https://www.adsimple.at/wp-content/uploads/2018/03/schlosssymbol-https.svg" width="17" height="18" /> links oben im Browser, links von der Internetadresse (z. B. beispielseite.de) und der Verwendung des Schemas https (anstatt http) als Teil unserer Internetadresse.<br />
+                    <p>Damit haben wir eine zusätzliche Sicherheitsschicht eingeführt und erfüllen Datenschutz durch Technikgestaltung <a href="https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32016R0679&amp;from=DE&amp;tid=321288915" target="_blank" rel="noreferrer">Artikel 25 Absatz 1 DSGVO</a>). Durch den Einsatz von TLS (Transport Layer Security), einem Verschlüsselungsprotokoll zur sicheren Datenübertragung im Internet, können wir den Schutz vertraulicher Daten sicherstellen.<br />
+                    Sie erkennen die Benutzung dieser Absicherung der Datenübertragung am kleinen Schlosssymbol <img src="https://www.adsimple.at/wp-content/uploads/2018/03/schlosssymbol-https.svg" alt="schloss-symbol" width="17" height="18" /> links oben im Browser, links von der Internetadresse (z. B. beispielseite.de) und der Verwendung des Schemas https (anstatt http) als Teil unserer Internetadresse.<br />
                     Wenn Sie mehr zum Thema Verschlüsselung wissen möchten, empfehlen wir die Google Suche nach &#8220;Hypertext Transfer Protocol Secure wiki&#8221; um gute Links zu weiterführenden Informationen zu erhalten.</p>
                     <h2 id="kommunikation">Kommunikation</h2>
-                    <table border="1" cellpadding="15">
+                    <table border="1">
                     <tbody>
                     <tr>
                     <td>
@@ -219,7 +218,7 @@ const Legal = () => {
                     <li>Art. 6 Abs. 1 lit. f DSGVO (Berechtigte Interessen): Wir wollen Kundenanfragen und geschäftliche Kommunikation in einem professionellen Rahmen betreiben. Dazu sind gewisse technische Einrichtungen wie z. B. E-Mail-Programme, Exchange-Server und Mobilfunkbetreiber notwendig, um die Kommunikation effizient betreiben zu können.</li>
                     </ul>
                     <h2 id="webhosting">Webhosting</h2>
-                    <table border="1" cellpadding="15">
+                    <table border="1">
                     <tbody>
                     <tr>
                     <td>
@@ -240,7 +239,7 @@ const Legal = () => {
                     <p>Bei der Verbindungsaufnahme des Browsers auf Ihrem Computer (Desktop, Laptop, Smartphone) und während der Datenübertragung zu und vom Webserver kann es zu einer Verarbeitung personenbezogener Daten kommen. Einerseits speichert Ihr Computer Daten, andererseits muss auch der Webserver Daten eine Zeit lang speichern, um einen ordentlichen Betrieb zu gewährleisten.</p>
                     <p>Zur Veranschaulichung:</p>
                     <p>
-                    <img role="img" src="https://www.adsimple.at/wp-content/uploads/2018/03/browser-und-webserver.svg" alt="Browser und Webserver" width="100%" />
+                    <img src="https://www.adsimple.at/wp-content/uploads/2018/03/browser-und-webserver.svg" alt="Browser und Webserver" width="100%" />
                     </p>
                     <h3>Warum verarbeiten wir personenbezogene Daten?</h3>
                     <p>Die Zwecke der Datenverarbeitung sind:</p>
@@ -267,7 +266,7 @@ const Legal = () => {
                     <h3>Rechtsgrundlage</h3>
                     <p>Die Rechtmäßigkeit der Verarbeitung personenbezogener Daten im Rahmen des Webhosting ergibt sich aus Art. 6 Abs. 1 lit. f DSGVO (Wahrung der berechtigten Interessen), denn die Nutzung von professionellem Hosting bei einem Provider ist notwendig, um das Unternehmen im Internet sicher und nutzerfreundlich präsentieren und Angriffe und Forderungen hieraus gegebenenfalls verfolgen zu können.</p>
                     <h2 id="font-awesome-datenschutzerklaerung">Font Awesome Datenschutzerklärung</h2>
-                    <table border="1" cellpadding="15">
+                    <table border="1">
                     <tbody>
                     <tr>
                     <td>
@@ -323,7 +322,7 @@ const Legal = () => {
                     <p>Wir weisen darauf hin, dass nach Meinung des Europäischen Gerichtshofs derzeit kein angemessenes Schutzniveau für den Datentransfer in die USA besteht. Die Datenverarbeitung geschieht im Wesentlichen durch jQuery CDN. Dies kann dazu führen, dass gegebenenfalls Daten nicht anonymisiert verarbeitet und gespeichert werden. Ferner können gegebenenfalls US-amerikanische staatliche Behörden Zugriff auf einzelne Daten nehmen. Es kann ferner vorkommen, dass diese Daten mit Daten aus möglichen anderen Diensten von jQuery CDN, bei denen Sie ein Nutzerkonto haben, verknüpft werden.</p>
                     <p>Mehr Informationen zum Datenschutz bei StackPath finden Sie unter <a href="https://www.stackpath.com/legal/privacy-statement" target="_blank" rel="noopener noreferrer">https://www.stackpath.com/legal/privacy-statement/</a> und zu jQuery unter <a href="https://openjsf.org/wp-content/uploads/sites/84/2019/11/OpenJS-Foundation-Privacy-Policy-2019-11-15.pdf" target="_blank" rel="follow noopener noreferrer">https://openjsf.org/wp-content/uploads/sites/84/2019/11/OpenJS-Foundation-Privacy-Policy-2019-11-15.pdf</a>.</p>
                     <h2 id="bootstrapcdn-datenschutzerklaerung">BootstrapCDN Datenschutzerklärung</h2>
-                    <table border="1" cellpadding="15">
+                    <table border="1">
                     <tbody>
                     <tr>
                     <td>
@@ -353,7 +352,7 @@ const Legal = () => {
                     <p>Wenn Sie eingewilligt haben, dass BootstrapCDN eingesetzt werden darf, ist die Rechtsgrundlage der entsprechenden Datenverarbeitung diese Einwilligung. Diese Einwilligung stellt laut<strong> Art. 6 Abs. 1 lit. a DSGVO (Einwilligung)</strong> die Rechtsgrundlage für die Verarbeitung personenbezogener Daten, wie sie bei der Erfassung durch BootstrapCDN vorkommen kann, dar.</p>
                     <p>Von unserer Seite besteht zudem ein berechtigtes Interesse, BootstrapCDN zu verwenden, um unser Online-Service zu optimieren und sicherer zu machen. Die dafür entsprechende Rechtsgrundlage ist <strong>Art. 6 Abs. 1 lit. f DSGVO (Berechtigte Interessen)</strong>. Wir setzen BootstrapCDN gleichwohl nur ein, soweit Sie eine Einwilligung erteilt haben.</p>
                     <p>Wir weisen darauf hin, dass nach Meinung des Europäischen Gerichtshofs derzeit kein angemessenes Schutzniveau für den Datentransfer in die USA besteht. Die Datenverarbeitung geschieht im Wesentlichen durch BootstrapCDN. Dies kann dazu führen, dass gegebenenfalls Daten nicht anonymisiert verarbeitet und gespeichert werden. Ferner können gegebenenfalls US-amerikanische staatliche Behörden Zugriff auf einzelne Daten nehmen. Es kann ferner vorkommen, dass diese Daten mit Daten aus möglichen anderen Diensten von BootstrapCDN, bei denen Sie ein Nutzerkonto haben, verknüpft werden.</p>
-                    <p>Mehr Informationen zum Datenschutz bei BootstrapCDN finden Sie auf <a href="https://www.jsdelivr.com/terms/privacy-policy-jsdelivr-net?tid=321288915" target="_blank" rel="follow noopener">https://www.jsdelivr.com/terms/privacy-policy-jsdelivr-net.</a>
+                    <p>Mehr Informationen zum Datenschutz bei BootstrapCDN finden Sie auf <a href="https://www.jsdelivr.com/terms/privacy-policy-jsdelivr-net?tid=321288915" target="_blank" rel="noreferrer">https://www.jsdelivr.com/terms/privacy-policy-jsdelivr-net.</a>
                     </p>
                     <p>Alle Texte sind urheberrechtlich geschützt.</p>
                     <p style={{marginTop:'15px'}}>Quelle: Erstellt mit dem <a href="https://www.adsimple.de/datenschutz-generator/" >Datenschutz Generator</a> von AdSimple</p>
