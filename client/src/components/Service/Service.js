@@ -35,7 +35,7 @@ const Service = () => {
                 <ul className="list-group list-group-flush">
                     <li className="list-group-item">
                         <h1>Technical Details</h1><br/>
-                        <p>I´m open get into and work with any technology! The tech-stack I use the most and keep at state of the art is:</p>
+                        <p>I am open get into and work with any technology! The tech-stack I use the most and keep at state of the art is:</p>
                         <table className="table table-borderless">
                             <thead>
                             <tr>
