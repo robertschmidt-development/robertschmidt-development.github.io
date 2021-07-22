@@ -8,7 +8,6 @@ import Contact from './components/Contact/Contact'
 import ProjectCard from './components/Project/ProjectCard'
 import ContactCard from './components/Contact/ContactCard'
 import Footer from './components/Footer/Footer'
-import Legal from './components/Legal/Legal'
 
 const App = () => {
 
@@ -24,8 +23,6 @@ const App = () => {
                 return <Contact />
             case Menu.PROJECT:
                 return <Project />
-            case Menu.LEGAL:
-                return <Legal />
             default:
                 break;
         }
@@ -39,7 +36,7 @@ const App = () => {
                     <ContactCard setMenu={setMenu}/>
                 </div>
                 {getContent()}
-                <Footer setMenu={setMenu}/>
+                <Footer/>
             </div>
 }
 

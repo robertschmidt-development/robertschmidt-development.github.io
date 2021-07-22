@@ -1,0 +1,71 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot 1`] = `
+<tr>
+  <td>
+    todo
+  </td>
+  <td>
+    baureihen
+  </td>
+  <td>
+    baujahre
+  </td>
+  <td>
+    bemerkung
+  </td>
+  <td>
+    <button
+      className="btn btn-outline-warning"
+      onClick={[Function]}
+      type="button"
+    >
+      Edit
+    </button>
+  </td>
+  <td>
+    <button
+      className="btn btn-outline-danger"
+      onClick={[Function]}
+      type="button"
+    >
+      Löschen
+    </button>
+  </td>
+</tr>
+`;
+
+exports[`matches snapshot 2 1`] = `
+<tr>
+  <td>
+    a
+  </td>
+  <td>
+    b
+  </td>
+  <td>
+    c
+  </td>
+  <td>
+    d
+  </td>
+  <td>
+    <button
+      className="btn btn-outline-warning"
+      onClick={[Function]}
+      type="button"
+    >
+      Edit
+    </button>
+  </td>
+  <td>
+    <button
+      className="btn btn-outline-danger"
+      onClick={[Function]}
+      type="button"
+    >
+      Löschen
+    </button>
+  </td>
+</tr>
+`;

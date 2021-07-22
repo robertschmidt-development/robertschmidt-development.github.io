@@ -9,9 +9,8 @@ const Contact = () => {
     return <div>
                 <br/>
                 <ul className={`list-group list-group-flush ${classes.detail}`}>
-                    <li className="list-group-item"><span>{t('contact.address')}:</span> Schwalbenstr. 1, 72119 Ammerbuch, {t('contact.land')}</li>
-                    <li className="list-group-item"><span>{t('contact.phone')}:</span> +49151 18637425</li>
-                    <li className="list-group-item"><span>Mail:</span>  robert.schmidt89(at)gmx.de</li>
+                    <li><a href="mailto:robert.schmidt89@gmx.de" type="button" class="btn btn-primary btn-block">{t('contact.button')}</a></li>
+                    <li className="list-group-item">robert.schmidt89@gmx.de</li>
                 </ul>
             </div>
 }

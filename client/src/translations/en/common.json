@@ -1,7 +1,5 @@
 {
     "contact": {
-        "phone": "Phone",
-        "address": "Address",
-        "land": "Germany"
+        "button": "Get In Touch"
     }
 }

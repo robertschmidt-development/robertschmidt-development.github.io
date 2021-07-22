@@ -1,7 +1,5 @@
 {
     "contact": {
-        "phone": "Telefon",
-        "address": "Addresse",
-        "land": "Deutschland"
+        "button": "Kontakt aufnehmen"
     }
 }

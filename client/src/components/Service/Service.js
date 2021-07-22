@@ -1,12 +1,13 @@
 import React from 'react'
+import classes from './Service.module.sass'
 
 const Service = () => {
 
     return <>
                <br/>
-                <ul className="list-group list-group-flush">
+                <ul className={`list-group list-group-flush ${classes.detail}`}>
                     <li className="list-group-item">
-                        <h1>Webapplications from Zero to Finish</h1><br/>
+                        <h1>Applications from Zero to Finish</h1><br/>
                     </li>
                     <li className="list-group-item">
                         <h4>Consulting, Planing, Prototyping and Deploying</h4>
@@ -31,25 +32,25 @@ const Service = () => {
                         </p>
                     </li>
                 </ul>
-                
-                <ul className="list-group list-group-flush">
+                <br/>
+                <ul className={`list-group list-group-flush ${classes.detail}`}>
                     <li className="list-group-item">
                         <h1>Technical Details</h1><br/>
                         <p>I am open get into and work with any technology! The tech-stack I use the most and keep at state of the art is:</p>
                         <table className="table table-borderless">
                             <thead>
                             <tr>
-                                <th>Frontend</th>
-                                <th>Backend</th>
-                                <th>Database</th>
-                                <th>Other</th>
+                                <th><h4>Frontend</h4></th>
+                                <th><h4>Backend</h4></th>
+                                <th><h4>Database</h4></th>
+                                <th><h4>Other</h4></th>
                             </tr>
                             </thead>
                             <tbody>
                             <tr>
                                 <td>React.js (ES6 JavaScript), SASS, Bootstrap</td>
                                 <td>PHP (Rest-Api, MVC-Approach)</td>
-                                <td>MySQL or similar, MongoDB (rarely)</td>
+                                <td>MySQL or PostgreSQL, MongoDB</td>
                                 <td>usually Python or PHP</td>
                             </tr>
                             </tbody>
