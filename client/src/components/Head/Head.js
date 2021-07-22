@@ -23,6 +23,7 @@ const Head = props => {
                                 <div className={`dropdown-menu ${classes.link}`}>
                                     <button className="dropdown-item" onClick={() => i18n.changeLanguage('en')}>English</button>
                                     <button className="dropdown-item" onClick={() => i18n.changeLanguage('de')}>German</button>
+                                    <button className="dropdown-item" onClick={() => i18n.changeLanguage('se')}>Swedish</button>
                                 </div>
                             </div>
                         </div>

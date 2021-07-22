@@ -5,6 +5,7 @@ import i18next from "i18next";
 import App from './App'
 import common_de from "./translations/de/common.json";
 import common_en from "./translations/en/common.json";
+import common_se from "./translations/se/common.json";
 
 
 i18next.init({
@@ -16,6 +17,9 @@ i18next.init({
         },
         de: {
             common: common_de
+        },
+        se: {
+            common: common_se
         },
     },
 });
