@@ -12,7 +12,7 @@ const Project = () => {
 
     return <>
             <br/>
-                <p style={{textAlign:'center'}}>This is a stripped down project I did for a client. It had a full backend and database working as well.</p>
+                <p style={{textAlign:'center'}}>This is a stripped down project I did for a client. It had a full backend and database working as well. (English only)</p>
                 <a href="https://github.com/robertschmidt-development" target="_blank" rel="noreferrer" type="button" class="btn btn-primary btn-block">See Code of this Project</a>
                 <Provider store={store}>
                     <BrowserRouter>
