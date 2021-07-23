@@ -4,7 +4,7 @@ const ErrorBadge = () => {
 
 return (
     <div className="alert alert-danger" style={{textAlign:'center'}}>
-        <strong>Ein Fehler ist aufgetreten!</strong>
+        <strong>Something went wrong!</strong>
     </div>)
 }
 

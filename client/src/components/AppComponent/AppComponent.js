@@ -3,7 +3,7 @@ import AdminRoutes from './AdminRoutes'
 import UserRoutes from './UserRoutes'
 import NavAdmin from './components/NavAdmin/NavAdmin'
 import NavUser from './components/NavUser/NavUser'
-import wackenhut from './Pdf/wackenhut.png'
+import companyLogo from './images/companylogo.jpg'
 import Start from './components/Start/Start'
 import { Redirect } from "react-router-dom";
 import { Menu } from './enums/menunames'
@@ -48,21 +48,21 @@ const App = () => {
                     <br />
                     
                     <div className="page-header pb-4" style={{borderBottom: '2px dashed grey'}}>
-                        <h1 className="display-2"> SPC-Digital    
+                        <h1 className="display-2"> JBS-Digital    
                                 <img
-                                    src={wackenhut} className="float-right pt-4"
-                                    alt="wackenhut_logo" width="18%" height="18%" 
+                                    src={companyLogo} className="float-right pr-4"
+                                    alt="company_logo" width="17%" height="17%" 
                                 />
                         </h1>
                     </div>
                     <br />
                     <div className="row">
                         <div className="col-2">
-                            {app.component !== 'start' ? <button className="btn btn-outline-danger btn-sm btn-block" onClick={() => setApp({component: 'start'})}>Modus wechseln</button> : null}
+                            {app.component !== 'start' ? <button className="btn btn-outline-danger btn-sm btn-block" onClick={() => setApp({component: 'start'})}>Change Mode</button> : null}
                         </div>
                         <div className="col-10">
-                            {app.component === 'user' ? <button type="button" className="btn btn-info btn-sm btn-block" disabled>Aufträge verwalten: {userInfo.kuerzel} ({userInfo.standort})</button> : null}
-                            {app.component === 'admin' ? <button type="button" className="btn btn-info btn-sm btn-block" disabled>Schwerpunkte / Service-Berater bearbeiten</button> : null}
+                            {app.component === 'user' ? <button type="button" className="btn btn-info btn-sm btn-block" disabled>Manage Jobs: {userInfo.kuerzel} ({userInfo.standort})</button> : null}
+                            {app.component === 'admin' ? <button type="button" className="btn btn-info btn-sm btn-block" disabled>Manage Workers / Job-Details</button> : null}
                         </div>
                     </div>
                     <br />

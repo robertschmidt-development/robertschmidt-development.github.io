@@ -240,7 +240,7 @@ const Auftrag = props => {
                         <div className="col-4">
                             <button className="btn btn-outline-success btn-block mt-3" 
                                 onClick={() => createPdf(auftrag.created, auftrag.auftragsnummer, auftrag.kennzeichen, auftrag.fin, auftrag.erstzulassung, getFehlerOfAuftrag(), fehlerObject)}>
-                                PDF mit Aufgabenauswahl herunterladen
+                                Download PDF with Selection
                             </button>
                         </div>
                     </div>

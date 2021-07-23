@@ -15,10 +15,10 @@ const NavAdmin = () => {
     return (
         <ul className="nav nav-tabs nav-justified" role="tablist">
              <li className="nav-item">
-                <Link to={process.env.REACT_APP_ROUTERLINKS + Menu.SCHWERPUNKTE} className={activeTab(Menu.SCHWERPUNKTE)}>Schwerpunkte</Link>
+                <Link to={process.env.REACT_APP_ROUTERLINKS + Menu.SCHWERPUNKTE} className={activeTab(Menu.SCHWERPUNKTE)}>Job-Details</Link>
             </li>
             <li className="nav-item">
-                <Link to={process.env.REACT_APP_ROUTERLINKS + Menu.SERVICE_BERATER} className={activeTab(Menu.SERVICE_BERATER)}>Service-Berater</Link>
+                <Link to={process.env.REACT_APP_ROUTERLINKS + Menu.SERVICE_BERATER} className={activeTab(Menu.SERVICE_BERATER)}>Workers</Link>
             </li>
       </ul>
     )

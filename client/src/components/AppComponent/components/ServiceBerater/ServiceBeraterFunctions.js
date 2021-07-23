@@ -40,9 +40,9 @@ const ServiceBeraterFunctions = props => {
 
     const dispatch = useDispatch()
     const saveDefinition = () => {
-        if(definition.email.match(/^([a-zA-Z0-9._-]+@wackenhut\.de,?\s*?)*$/) === null){ 
+        if(definition.email.match(/^([a-zA-Z0-9._-]+@company\.de,?\s*?)*$/) === null){ 
             setValidationFailed(true)
-            alert("Geben Sie die Email-Adressen kommagetrennt in folgender Form ein: m.mustermann@wackenhut.de, ...")
+            alert("Give Mailadresses seperated by comma like the following: j.doe@company.de, ...")
             return
         }
 
@@ -67,7 +67,7 @@ const ServiceBeraterFunctions = props => {
     }
 
     const onDelete = row => {
-        const result = window.confirm("Wollen Sie den Datensatz wirklich löschen?")
+        const result = window.confirm("Would you really like to delete this data?")
         if(!result) return
         dispatch(deleteBeraterAction(row))
     }

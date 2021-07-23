@@ -14,10 +14,10 @@ const ServiceBeraterTable = props => {
                 <table className="table">
                     <thead>
                         <tr>
-                            <th onClick={() => requestSort('vorname')} className={classes.thPointer}>Vorname <SortingArrow /></th>
+                            <th onClick={() => requestSort('vorname')} className={classes.thPointer}>First Name <SortingArrow /></th>
                             <th onClick={() => requestSort('name')} className={classes.thPointer}>Name <SortingArrow /></th>
-                            <th onClick={() => requestSort('standort')} className={classes.thPointer}>Standort <SortingArrow /></th>
-                            <th onClick={() => requestSort('kuerzel')} className={classes.thPointer}>Namenskürzel <SortingArrow /></th>
+                            <th onClick={() => requestSort('standort')} className={classes.thPointer}>Location <SortingArrow /></th>
+                            <th onClick={() => requestSort('kuerzel')} className={classes.thPointer}>A.k.a. <SortingArrow /></th>
                             <th onClick={() => requestSort('email')} className={classes.thPointer}>E-Mail <SortingArrow /></th>
                             <th></th>
                             <th></th>

@@ -39,7 +39,7 @@ const SchwerpunkteFunctions = props => {
     const saveDefinition = () => {
         if(definition.baureihen.match(/^(W[0-9]{3}\s{0,2},?\s{0,2})*$/) === null){ 
             setValidationFailed(true)
-            alert("Geben Sie die Baureihen in folgender Form ein: W123, W345, ...")
+            alert("Write Build ons like this: W123, W345, ...")
             return
         }
 
@@ -64,7 +64,7 @@ const SchwerpunkteFunctions = props => {
     }
 
     const onDelete = row => {
-        const result = window.confirm("Wollen Sie den Datensatz wirklich löschen?")
+        const result = window.confirm("Would you really like to delete this data?")
         if(!result) return
         dispatch(deleteFehlerAction(row))
     }

@@ -18,10 +18,10 @@ const SchwerpunkteForm = props => {
                     <br /> */}
                     <div className="row">
                         <div className="col-8">
-                        <button type="button" className="btn btn-success btn-block" onClick={saveDefinition}>Speichern</button>
+                        <button type="button" className="btn btn-success btn-block" onClick={saveDefinition}>Save</button>
                         </div>
                         <div className="col-4">
-                            <button type="button" className="btn btn-secondary btn-block" onClick={closeForm}>Abbrechen</button>
+                            <button type="button" className="btn btn-secondary btn-block" onClick={closeForm}>Cancel</button>
                         </div>
                     </div>
                 </>

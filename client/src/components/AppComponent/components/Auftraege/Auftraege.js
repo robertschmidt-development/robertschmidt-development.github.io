@@ -67,12 +67,12 @@ const Auftraege = props => {
             <table className="table table-hover">
                 <thead>
                     <tr>
-                        <th onClick={() => requestSort('auftragsnummer')} style={styles.tableHeader}>Auftragsnummer <SortingArrow /></th>
-                        <th onClick={() => requestSort('kennzeichen')} style={styles.tableHeader}>Kennzeichen <SortingArrow /></th>
-                        <th onClick={() => requestSort('fin')} style={styles.tableHeader}>FIN <SortingArrow /></th>
-                        <th onClick={() => requestSort('erstzulassung')} style={styles.tableHeader}>Erstzulassung <SortingArrow /></th>
-                        <th onClick={() => requestSort('created')} style={styles.tableHeader}>Erstellt am <SortingArrow /></th>
-                        <th onClick={() => requestSort('notiz')} style={styles.tableHeader}>Notiz <SortingArrow /></th>
+                        <th onClick={() => requestSort('auftragsnummer')} style={styles.tableHeader}>Jobnumber <SortingArrow /></th>
+                        <th onClick={() => requestSort('kennzeichen')} style={styles.tableHeader}>Sign <SortingArrow /></th>
+                        <th onClick={() => requestSort('fin')} style={styles.tableHeader}>Largenumber <SortingArrow /></th>
+                        <th onClick={() => requestSort('erstzulassung')} style={styles.tableHeader}>First Date <SortingArrow /></th>
+                        <th onClick={() => requestSort('created')} style={styles.tableHeader}>Created <SortingArrow /></th>
+                        <th onClick={() => requestSort('notiz')} style={styles.tableHeader}>Note <SortingArrow /></th>
                     </tr>
                 </thead>
                 <tbody>

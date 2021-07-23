@@ -1,5 +1,10 @@
 import React from 'react'
 import classes from './Service.module.sass'
+import reactLogo from'./react-logo.jpg';
+import phpLogo from'./php-logo.png';
+import mysqlLogo from'./mysql-logo.png';
+import pythonLogo from'./python-logo.png';
+
 
 const Service = () => {
 
@@ -12,23 +17,22 @@ const Service = () => {
                     <li className="list-group-item">
                         <h4>Consulting, Planing, Prototyping and Deploying</h4>
                         <br/>
-                        <p>fdsfadsfas</p>
+                        <p>I will transform your ideas and business processes to apps that work and make your business perform the best it can in a digital age!</p>
                     </li>
-                    <li className="list-group-item">
+                    {/* <li className="list-group-item">
                         <h4>Testing, Logs and Maintenance</h4>
                         <br/>
                         <p>To make your business keep rolling, Your App will be deployed with a high test coverage to make your business keep rolling. If something went wrong, I will fix it</p>
-                    </li>
+                    </li> */}
                     <li className="list-group-item">
                         <h4>Know-how in Mechanical Engineering, Business Economics and Jurisprudence</h4>
                         <br/>
-                        <p>As an owner of a Masters Degree in Mechanical Engineering (M.Eng) and a Bachelors Degree in Business Law (LL.B), I can especially provide Coding-Solutions in these fields of business.</p>
+                        <p>As an owner of a Masters Degree in Mechanical Engineering and a Bachelors Degree in Business Law I can relate to problems and provide solutions especially in these fields of business.</p>
                     </li>
                     <li className="list-group-item">
                         <h4>Your problems solved!</h4>
                         <br/>
-                        <p>Programming isn´t just a tool to write handy applications. It can be used to solve a huge amout of problems that could arise in a business.<br/>
-                        Do you have the feeling that programming can help you on a certain task? Get in touch with me and I see what I can do for you! 
+                        <p>Programming can be used to solve a huge amout of problems that could arise in a business. Simply get in touch with me and I will turn a problem into a competitive advantage for your business! 
                         </p>
                     </li>
                 </ul>
@@ -36,7 +40,7 @@ const Service = () => {
                 <ul className={`list-group list-group-flush ${classes.detail}`}>
                     <li className="list-group-item">
                         <h1>Technical Details</h1><br/>
-                        <p>I am open get into and work with any technology! The tech-stack I use the most and keep at state of the art is:</p>
+                        <p>I am fast to get into any new technology. The main tech-stack I use the most and keep at state of the art though is:</p>
                         <table className="table table-borderless">
                             <thead>
                             <tr>
@@ -48,10 +52,10 @@ const Service = () => {
                             </thead>
                             <tbody>
                             <tr>
-                                <td>React.js (ES6 JavaScript), SASS, Bootstrap</td>
-                                <td>PHP (Rest-Api, MVC-Approach)</td>
-                                <td>MySQL or PostgreSQL, MongoDB</td>
-                                <td>usually Python or PHP</td>
+                                <td><img style={{width:'65%', height:'65%'}} alt="logo of react" src={reactLogo}/></td>
+                                <td><img style={{width:'30%', height:'30%', marginTop:'10px'}} alt="logo of php" src={phpLogo}/></td>
+                                <td><img style={{width:'55%', height:'55%'}} alt="logo of mysql" src={mysqlLogo}/></td>
+                                <td><img style={{width:'65%', height:'65%', marginTop:'20px'}} alt="logo of python" src={pythonLogo}/></td>
                             </tr>
                             </tbody>
                         </table>

@@ -39,19 +39,19 @@ const Start = props => {
 
     const loading = useSelector(state => state.loadingReducer)
 
-    const buttonOnly = <><button type="button" className="btn btn-outline-primary btn-lg btn-block" onClick={() => setApp({component: 'admin'})}>Schwerpunkte / Service-Berater bearbeiten</button>
+    const buttonOnly = <><button type="button" className="btn btn-outline-primary btn-lg btn-block" onClick={() => setApp({component: 'admin'})}>Manage Workers / Job-Details</button>
                             <br />
-                        <button type="button" className="btn btn-outline-primary btn-lg btn-block" onClick={() => setShow({component: 'standort'})}>Aufträge verwalten</button>
+                        <button type="button" className="btn btn-outline-primary btn-lg btn-block" onClick={() => setShow({component: 'standort'})}>Manage Jobs</button>
                         </>
 
     const selectStandort = <><select className="form-control form-control-lg" onChange={handleChangeStandort} defaultValue={'select'}>
-                                <option value={'select'} disabled>Standort</option>
+                                <option value={'select'} disabled>Location</option>
                                 {standorte.map((el, index) => <option key={index}>{el.standort}</option>)}
                             </select>
                             </>
 
     const selectBerater = <><select className="form-control form-control-lg" onChange={loadDataFromUser} defaultValue={'select'}>
-                                <option value={'select'} disabled>Berater</option>
+                                <option value={'select'} disabled>Worker</option>
                                 {berater.map((el, index) => <option key={index} value={el.id}>({el.kuerzel}) {el.vorname} {el.name}</option>)}
                             </select>
                             </>

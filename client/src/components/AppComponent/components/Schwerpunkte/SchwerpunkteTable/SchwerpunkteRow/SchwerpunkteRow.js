@@ -14,7 +14,7 @@ const SchwerpunkteRow = props => {
                 <td>{row.bemerkung}</td>
                 {/* <td>{row.bilder}</td> */}
                 <td><button type="button" className="btn btn-outline-warning" onClick={() => onEdit(row)}>Edit</button></td>
-                <td><button type="button" className="btn btn-outline-danger" onClick={() => onDelete(row)}>Löschen</button></td>
+                <td><button type="button" className="btn btn-outline-danger" onClick={() => onDelete(row)}>Delete</button></td>
             </tr>
         </>
     )

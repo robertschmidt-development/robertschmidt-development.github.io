@@ -1,10 +1,10 @@
 import jsPDF from 'jspdf';
-import wackenhut from './wackenhut.png'
+import companyLogo from './companylogo.jpg'
 
 class Pdf {
     constructor(){
         this.doc = new jsPDF()
-        this.logo = wackenhut
+        this.logo = companyLogo
     }
 
     createPdf(datum, auftragsnummer, kennzeichen, fin, erstzulassung, allAufgaben, fehlerObject){
