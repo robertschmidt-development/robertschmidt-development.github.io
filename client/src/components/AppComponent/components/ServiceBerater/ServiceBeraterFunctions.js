@@ -40,9 +40,9 @@ const ServiceBeraterFunctions = props => {
 
     const dispatch = useDispatch()
     const saveDefinition = () => {
-        if(definition.email.match(/^([a-zA-Z0-9._-]+@company\.de,?\s*?)*$/) === null){ 
+        if(definition.email.match(/^([a-zA-Z0-9._-]+@company\.com,?\s*?)*$/) === null){ 
             setValidationFailed(true)
-            alert("Give Mailadresses seperated by comma like the following: j.doe@company.de, ...")
+            alert("Give Mailadresses seperated by comma like the following: j.doe@company.com, ...")
             return
         }
 
