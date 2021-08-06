@@ -1,6 +1,5 @@
 import React from 'react'
 
-
 const AuftraegeRow = props => {
 
     const {row, openAuftrag} = props

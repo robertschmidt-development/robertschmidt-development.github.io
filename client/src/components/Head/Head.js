@@ -16,6 +16,7 @@ const Head = props => {
                         <div className="col-11">
                             <h1 className={`display-4 ${classes.link}`} onClick={() => setMenu(Menu.INIT)}>Robert Schmidt Development</h1>
                         </div>
+                        
                         <div className="col-1">
                             <br/>
                             <div className="dropdown dropleft">
@@ -26,7 +27,10 @@ const Head = props => {
                                     <button className="dropdown-item" onClick={() => i18n.changeLanguage('se')}>Swedish</button>
                                 </div>
                             </div>
+                            
                         </div>
+                            
+                        
                     </div>
                     <code style={{fontSize:'x-large'}}>{'<> '}Programming(){'{ ...Solutions }'}{' </>'}</code>
                 </div>
