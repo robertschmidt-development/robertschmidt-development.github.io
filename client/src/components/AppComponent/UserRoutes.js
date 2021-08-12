@@ -25,17 +25,15 @@ const UserRoutes = props => {
     
     const offeneAuftraege = data.filter(el => el.status === Status.OFFEN)
     const erledigt = data.filter(el => el.status === Status.ERLEDIGT || el.status === Status.ERLEDIGT_WIRD_GLEICH_REPARIERT || el.status === Status.ERLEDIGT_NEUER_TERMIN)
-    // const neuerTermin = data.filter(el => el.status === Status.NEUER_TERMIN)
     const aufgabe = data.filter(el => el.status === Status.AUFGABE)
 
     const fehlerData = useSelector(state => state.fehlerReducer)
 
     return (
         <Switch>
-            <Route path={process.env.REACT_APP_ROUTERLINKS + Menu.OFFENE_AUTRAEGE} component={() => (<OffeneAuftraege data={offeneAuftraege} fehlerData={fehlerData}/>)} />
-            {/* <Route path={process.env.REACT_APP_ROUTERLINKS + Menu.NEUER_TERMIN} component={() => (<NeuerTermin data={neuerTermin} fehlerData={fehlerData}/>)} /> */}
-            <Route path={process.env.REACT_APP_ROUTERLINKS + Menu.AUFGABE} component={() => (<Aufgabe data={aufgabe} fehlerData={fehlerData}/>)} />
-            <Route path={process.env.REACT_APP_ROUTERLINKS + Menu.ERLEDIGT} component={() => (<Erledigt data={erledigt} fehlerData={fehlerData}/>)} />
+            <Route path={'/' + Menu.OFFENE_AUTRAEGE} component={() => (<OffeneAuftraege data={offeneAuftraege} fehlerData={fehlerData}/>)} />
+            <Route path={'/' + Menu.AUFGABE} component={() => (<Aufgabe data={aufgabe} fehlerData={fehlerData}/>)} />
+            <Route path={'/' + Menu.ERLEDIGT} component={() => (<Erledigt data={erledigt} fehlerData={fehlerData}/>)} />
         </Switch>
     )
 }

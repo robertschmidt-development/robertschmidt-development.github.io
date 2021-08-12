@@ -39,7 +39,7 @@ const SchwerpunkteFunctions = props => {
     const saveDefinition = () => {
         if(definition.baureihen.match(/^(W[0-9]{3}\s{0,2},?\s{0,2})*$/) === null){ 
             setValidationFailed(true)
-            alert("Write Build ons like this: W123, W345, ...")
+            alert("Write Build like this: W123, W345, ...")
             return
         }
 

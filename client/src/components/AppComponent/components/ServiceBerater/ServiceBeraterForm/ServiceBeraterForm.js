@@ -11,12 +11,9 @@ const ServiceBeraterForm = props => {
                     <input type="text" className="form-control" placeholder="Name" value={definition.name} onChange={e => setDefinition({...definition, name: e.target.value})}/>
                     <br />
                     <select className="form-control" value={definition.standort} onChange={e => setDefinition({...definition, standort: e.target.value})}>
-                        <option value="Nagold">Nagold</option>
-                        <option value="Gültstein">Gültstein</option>
-                        <option value="Calw">Calw</option>
-                        <option value="Baden-Baden">Baden-Baden</option>
-                        <option value="Gaggenau">Gaggenau</option>
-                        <option value="Rastatt">Rastatt</option>
+                        <option value="London">London</option>
+                        <option value="Munich">Munich</option>
+                        <option value="Stockholm">Stockholm</option>
                     </select>
                     <br />
                     <input type="text" className="form-control" placeholder="Namenskürzel" value={definition.kuerzel} onChange={e => setDefinition({...definition, kuerzel: e.target.value})}/>

@@ -40,22 +40,22 @@ const Service = () => {
                 <ul className={`list-group list-group-flush ${classes.detail}`}>
                     <li className="list-group-item">
                         <h1>Technical Details</h1><br/>
-                        <p>I am fast to get into any new technology. The main tech-stack I use the most and keep at state of the art though is:</p>
-                        <table className="table table-borderless">
+                        <p>I am fast to get into any new technology. The main tech-stack I use the most and keep at state of the art is:</p>
+                        <table className={`table table-borderless ${classes.techstack}`}>
                             <thead>
                             <tr>
                                 <th><h4>Frontend</h4></th>
                                 <th><h4>Backend</h4></th>
                                 <th><h4>Database</h4></th>
-                                <th><h4>Other</h4></th>
+                                {/* <th><h4>Other</h4></th> */}
                             </tr>
                             </thead>
                             <tbody>
                             <tr>
                                 <td><img style={{width:'65%', height:'65%'}} alt="logo of react" src={reactLogo}/></td>
-                                <td><img style={{width:'30%', height:'30%', marginTop:'10px'}} alt="logo of php" src={phpLogo}/></td>
+                                <td><img style={{width:'30%', height:'30%', marginTop:'1.2em'}} alt="logo of php" src={phpLogo}/><img style={{width:'45%', height:'45%', marginLeft:'1.5em', marginTop: '1.3em'}} alt="logo of python" src={pythonLogo}/></td>
                                 <td><img style={{width:'55%', height:'55%'}} alt="logo of mysql" src={mysqlLogo}/></td>
-                                <td><img style={{width:'65%', height:'65%', marginTop:'20px'}} alt="logo of python" src={pythonLogo}/></td>
+                                {/* <td></td> */}
                             </tr>
                             </tbody>
                         </table>

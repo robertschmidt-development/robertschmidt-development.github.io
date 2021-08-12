@@ -12,12 +12,12 @@ const Project = () => {
 
     return <>
             <br/>
-                <p style={{textAlign:'center'}}>This is a project I did for a client to keep track of very special jobs. It had a full backend working as well with automatic email forwarding on certain events.</p>
-                <a href="https://github.com/robertschmidt-development/robertschmidt-development.github.io/tree/main/client/src/components/AppComponent" target="_blank" rel="noreferrer" type="button" class="btn btn-primary btn-block">See Code of this Project</a>
+                <p style={{textAlign:'center', fontSize: 'larger'}}>This is a project I did for a client to keep track of very special jobs. It had a full backend working as well with automatic email forwarding on certain events.</p>
+                <a href="https://github.com/robertschmidt-development/robertschmidt-development.github.io/tree/main/client/src/components/AppComponent" target="_blank" rel="noreferrer" type="button" className="btn btn-primary btn-block">See Code of this Project</a>
                 <Provider store={store}>
                     <BrowserRouter>
                         <div style={{border:'1px solid rgba(0, 0, 0, 0.5)', padding:'10px', marginTop:'10px'}}>
-                            <AppComponent/>
+                                <AppComponent/>
                         </div>
                     </BrowserRouter>
                 </Provider>

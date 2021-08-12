@@ -17,13 +17,13 @@ const App = () => {
     const user = <>  
                     <NavUser />
                     <UserRoutes userId={userInfo.id} />
-                    <Redirect to={process.env.REACT_APP_ROUTERLINKS + Menu.OFFENE_AUTRAEGE} push/>
+                    <Redirect to={Menu.OFFENE_AUTRAEGE} push/>
                 </>
 
     const admin = <>
                     <NavAdmin />
                     <AdminRoutes />
-                    <Redirect to={process.env.REACT_APP_ROUTERLINKS + Menu.SCHWERPUNKTE} push/>
+                    <Redirect to={Menu.SCHWERPUNKTE} push/>
                 </>
 
     const loadApp = () => {
@@ -33,7 +33,7 @@ const App = () => {
                                                     setUser={setUser}
                                                 />
                                                 <Redirect 
-                                                    to={process.env.REACT_APP_ROUTERLINKS} 
+                                                    to={'/'} 
                                                     push
                                                 />
                                             </>
@@ -51,16 +51,18 @@ const App = () => {
                         <h1 className="display-2"> JBS-Digital    
                                 <img
                                     src={companyLogo} className="float-right pr-4"
-                                    alt="company_logo" width="17%" height="17%" 
+                                    alt="company_logo" width="18%" height="18%" 
                                 />
                         </h1>
                     </div>
                     <br />
                     <div className="row">
-                        <div className="col-2">
+                        <div className="col-lg-2">
                             {app.component !== 'start' ? <button className="btn btn-outline-danger btn-sm btn-block" onClick={() => setApp({component: 'start'})}>Change Mode</button> : null}
                         </div>
-                        <div className="col-10">
+                        <br />
+                        <br />
+                        <div className="col-lg-10">
                             {app.component === 'user' ? <button type="button" className="btn btn-info btn-sm btn-block" disabled>Manage Jobs: {userInfo.kuerzel} ({userInfo.standort})</button> : null}
                             {app.component === 'admin' ? <button type="button" className="btn btn-info btn-sm btn-block" disabled>Manage Workers / Job-Details</button> : null}
                         </div>

@@ -21,9 +21,8 @@ const AdminRoutes = () => {
 
     return (
         <Switch>
-            {/* <Route path={process.env.REACT_APP_ROUTERLINKS} exact component={Home} /> */}
-            <Route disabled path={process.env.REACT_APP_ROUTERLINKS + Menu.SCHWERPUNKTE} component={() => (<SchwerpunkteFunctions data={fehlerData}/>)} />
-            <Route path={process.env.REACT_APP_ROUTERLINKS + Menu.SERVICE_BERATER} component={() => (<ServiceBeraterFunctions data={beraterData}/>)} />
+            <Route path={'/' + Menu.SCHWERPUNKTE} component={() => (<SchwerpunkteFunctions data={fehlerData}/>)} />
+            <Route path={'/' + Menu.SERVICE_BERATER} component={() => (<ServiceBeraterFunctions data={beraterData}/>)} />
         </Switch>
     )
 }

@@ -10,7 +10,7 @@ const Contact = () => {
                 <br/>
                 <ul className={`list-group list-group-flush ${classes.detail}`}>
                     <li><a href="mailto:robert.schmidt89@gmx.de" type="button" class="btn btn-primary btn-block">{t('contact.button')}</a></li>
-                    <li className="list-group-item">robert.schmidt89@gmx.de</li>
+                    <li className="list-group-item">robert.schmidt89(at)gmx.de</li>
                 </ul>
             </div>
 }
