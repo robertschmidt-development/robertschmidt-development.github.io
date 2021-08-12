@@ -1,28 +1,28 @@
 {
   "files": {
-    "main.css": "/static/css/main.6fe43cd3.chunk.css",
-    "main.js": "/static/js/main.3f1e2e67.chunk.js",
-    "main.js.map": "/static/js/main.3f1e2e67.chunk.js.map",
+    "main.css": "/static/css/main.6db9562f.chunk.css",
+    "main.js": "/static/js/main.bc56529a.chunk.js",
+    "main.js.map": "/static/js/main.bc56529a.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.f86b7958.js",
     "runtime-main.js.map": "/static/js/runtime-main.f86b7958.js.map",
     "static/js/2.1ee242ab.chunk.js": "/static/js/2.1ee242ab.chunk.js",
     "static/js/2.1ee242ab.chunk.js.map": "/static/js/2.1ee242ab.chunk.js.map",
-    "static/js/3.fbfde7bf.chunk.js": "/static/js/3.fbfde7bf.chunk.js",
-    "static/js/3.fbfde7bf.chunk.js.map": "/static/js/3.fbfde7bf.chunk.js.map",
+    "static/js/3.67e02532.chunk.js": "/static/js/3.67e02532.chunk.js",
+    "static/js/3.67e02532.chunk.js.map": "/static/js/3.67e02532.chunk.js.map",
     "static/js/4.587841c0.chunk.js": "/static/js/4.587841c0.chunk.js",
     "static/js/4.587841c0.chunk.js.map": "/static/js/4.587841c0.chunk.js.map",
     "static/js/5.f61af9b3.chunk.js": "/static/js/5.f61af9b3.chunk.js",
     "static/js/5.f61af9b3.chunk.js.map": "/static/js/5.f61af9b3.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.6fe43cd3.chunk.css.map": "/static/css/main.6fe43cd3.chunk.css.map",
+    "static/css/main.6db9562f.chunk.css.map": "/static/css/main.6db9562f.chunk.css.map",
     "static/js/2.1ee242ab.chunk.js.LICENSE.txt": "/static/js/2.1ee242ab.chunk.js.LICENSE.txt",
-    "static/js/3.fbfde7bf.chunk.js.LICENSE.txt": "/static/js/3.fbfde7bf.chunk.js.LICENSE.txt",
+    "static/js/3.67e02532.chunk.js.LICENSE.txt": "/static/js/3.67e02532.chunk.js.LICENSE.txt",
     "static/js/4.587841c0.chunk.js.LICENSE.txt": "/static/js/4.587841c0.chunk.js.LICENSE.txt",
     "static/js/5.f61af9b3.chunk.js.LICENSE.txt": "/static/js/5.f61af9b3.chunk.js.LICENSE.txt",
     "static/media/companylogo.848163d5.jpg": "/static/media/companylogo.848163d5.jpg",
     "static/media/contact.2b2534fa.jpg": "/static/media/contact.2b2534fa.jpg",
     "static/media/mysql-logo.9abb470b.png": "/static/media/mysql-logo.9abb470b.png",
-    "static/media/php-logo.f7ceba71.png": "/static/media/php-logo.f7ceba71.png",
+    "static/media/php-logo.0e18fcfc.png": "/static/media/php-logo.0e18fcfc.png",
     "static/media/project.9313c93f.jpg": "/static/media/project.9313c93f.jpg",
     "static/media/python-logo.443b1286.png": "/static/media/python-logo.443b1286.png",
     "static/media/react-logo.4604254b.jpg": "/static/media/react-logo.4604254b.jpg",
@@ -30,8 +30,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.f86b7958.js",
-    "static/js/3.fbfde7bf.chunk.js",
-    "static/css/main.6fe43cd3.chunk.css",
-    "static/js/main.3f1e2e67.chunk.js"
+    "static/js/3.67e02532.chunk.js",
+    "static/css/main.6db9562f.chunk.css",
+    "static/js/main.bc56529a.chunk.js"
   ]
 }
